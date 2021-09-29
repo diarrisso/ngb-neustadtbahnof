@@ -1,0 +1,1316 @@
+@charset "UTF-8";
+.page-content {
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -o-justify-content: center;
+  -ms-justify-content: center;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -o-align-items: center;
+  -ms-align-items: center;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+}
+
+.form-v10-content {
+  width: 1100px;
+  margin: 0 auto;
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.form-v10-content .form-detail {
+  position: relative;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.form-v10-content .form-detail .form-left {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 100%;
+}
+
+.form-v10-content .form-detail .form-right {
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.form-v10-content .form-detail .form-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1rem;
+}
+
+.form-v10-content .form-detail .form-row {
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.form-v10-content .form-detail .form-left .form-group .form-row.form-row-1:not([type='checkbox']) {
+  width: 33%;
+}
+
+.form-v10-content .form-detail .form-left .form-group .form-row.form-row-2:not([type='checkbox']) {
+  width: 33%;
+}
+
+.form-v10-content .form-group input:not([type='checkbox']) {
+  width: 100%;
+  padding: 0 15px 19px 0;
+  border: 1px solid transparent;
+  background: transparent;
+  appearance: unset;
+  -moz-appearance: unset;
+  -webkit-appearance: unset;
+  -o-appearance: unset;
+  -ms-appearance: unset;
+  outline: none;
+  -moz-outline: none;
+  -webkit-outline: none;
+  -o-outline: none;
+  -ms-outline: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  color: white !important;
+}
+
+.form-v10-content .form-detail .form-left input,
+.form-v10-content .form-detail .form-left select {
+  border-bottom: 1px solid black;
+}
+
+.form-v10-content .form-detail .newsletter input:not([type='checkbox']) {
+  border-bottom: 2px solid #656565;
+}
+
+.form-v10-content .form-detail .form-right input,
+.form-v10-content .form-detail .form-right select {
+  border-bottom: 1px solid;
+  border-bottom-color: rgba(8, 8, 8, 0.3);
+}
+
+.form-v10-content .form-detail .form-right .form-row-last {
+  padding-left: 60px;
+  margin: 20px 0 10px;
+}
+
+.form-v10-content .form-detail .form-left .register {
+  width: 330px;
+  border: 2px solid #656565 !important;
+  cursor: pointer;
+  color: #656565 !important;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: "Facundo-black";
+  line-height: 1.7;
+  padding: 0.4em;
+  background: none;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.form-v10-content .form-detail .form-left .register:hover {
+  background: white;
+  border: 1px solid #656565;
+  -webkit-transition: background-color 1000ms linear;
+  transition: background-color 1000ms linear;
+}
+
+/* Responsive */
+@media screen and (max-width: 1199px) {
+  .form-v10-content {
+    margin: 95px 20px;
+  }
+}
+
+.form-row-la {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.form-row-la p {
+  font-size: 1em;
+  font-family: "Facundo-black";
+}
+
+#your_email {
+  margin-top: 4.5rem;
+}
+
+textarea {
+  margin-top: 1.8rem !important;
+  border: 0 !important;
+  border-bottom: 1px solid black !important;
+  border-top: 1px solid !important;
+  outline: none !important;
+  height: 154px;
+}
+
+.label-nachricht {
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
+}
+
+.pflichtfelder {
+  margin-top: 1.8rem;
+}
+
+.form-check-input:checked[type=radio] {
+  background-image: url("../img/check.png");
+}
+
+.form-check-input:checked {
+  background-color: transparent !important;
+  border: 2px solid #a04848 !important;
+}
+
+.form-check-input[type=radio] {
+  border-radius: unset !important;
+  border: 2px solid #656565 !important;
+  width: 50px;
+  height: 50px;
+  background-color: transparent !important;
+}
+
+.form-check-input {
+  width: 1em;
+  height: 1em;
+  margin-top: .25em;
+  vertical-align: top;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 23px !important;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-print-color-adjust: exact;
+  color-adjust: exact;
+}
+
+*,
+::after,
+::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Facundo-black";
+  src: url("../Fonts/Latinotype-Facundo-Black.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Facundo-regular";
+  src: url("../Fonts/Latinotype Facundo-Regular.otf") format("opentype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Facundo-semibold";
+  src: url("../Fonts/Latinotype Facundo-SemiBold.otf") format("opentype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Hokime3-light";
+  src: url("/Fonts/HOKIME3-Light.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Hokime3-Bold";
+  src: url("/Fonts/HOKIME3-Bold.otf") format("opentype");
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Hokime3";
+  src: url("/Fonts/HOKIME3.otf") format("opentype");
+}
+
+.banner-header {
+  height: 700px;
+  position: relative;
+  overflow: hidden;
+  background-image: url("../img/header-banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: cover;
+  background-size: contain;
+  width: 100%;
+}
+
+.banner-header h1 {
+  position: absolute;
+  top: 80%;
+  right: 28%;
+  color: white;
+  font-family: "Mark Pro bold", sans-serif;
+  font-size: 2.8em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+header {
+  background-color: black;
+  height: 800px;
+}
+
+.flex-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-top: 1rem;
+}
+
+.flex-text .event-description {
+  text-align: center;
+  font-family: "Facundo-semibold";
+  line-height: 1.6;
+  font-size: 1.2em;
+  padding-top: 1rem;
+}
+
+.flex-text h1 {
+  margin-bottom: 2rem;
+  margin-top: 4rem;
+  font-family: "Facundo-black";
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-size: 1.4em;
+  letter-spacing: 3px;
+}
+
+.flex-text .adresse {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 0 !important;
+}
+
+.flex-text .adresse li {
+  list-style: none;
+  padding-right: 20px;
+  font-family: "Facundo-black";
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 1.6em;
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+}
+
+.flex-text .adresse li:not(:last-child):after {
+  content: "|";
+  display: inline-block;
+}
+
+.flex-text .date {
+  font-size: 5em;
+  padding-bottom: 2rem;
+}
+
+.flex-text .beginn-time p {
+  font-size: 1.6em;
+  font-family: "Facundo-black";
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.formular-newsletter {
+  background-color: black;
+  color: white;
+  padding-bottom: 7rem;
+}
+
+.formular-newsletter h1 {
+  color: white;
+  font-family: "Facundo-black";
+  font-size: 1.7em;
+  text-transform: uppercase;
+  line-height: 1.6;
+  letter-spacing: 3px;
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
+
+.formular-newsletter p {
+  font-size: 1.24em;
+  letter-spacing: 3px;
+  font-family: "Facundo-regular";
+  color: white;
+}
+
+.formular-newsletter .form-row-la {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-top: 4rem;
+}
+
+.formular-newsletter .acceptance-input {
+  margin-left: 2.5rem;
+  margin-top: 3rem;
+}
+
+.formular-newsletter .acceptance-input p {
+  white-space: nowrap;
+  font-family: "Facundo-semibold";
+  font-size: 1.6em;
+  -webkit-transform: translate(-8px, 6px);
+          transform: translate(-8px, 6px);
+  letter-spacing: 1px;
+}
+
+.formular-newsletter .form-control {
+  display: block;
+  padding: 1.175rem 0rem;
+  font-weight: 400;
+  line-height: 1.5;
+  outline: none !important;
+  border-radius: 0;
+  border: none !important;
+  border-bottom: 1px solid #080808 !important;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.formular-newsletter .form-check-input[type=checkbox] {
+  border-radius: 0 !important;
+}
+
+.formular-newsletter .form-label {
+  font-size: 1.50em;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-family: "Facundo-semibold";
+}
+
+.formular-newsletter .checbox-text {
+  font-family: "Facundo-semibold";
+  line-height: 1.8;
+  font-size: 1.2em;
+  text-align: justify;
+  width: 804px;
+  margin: 0 auto;
+  border: 2px solid white;
+  margin-top: 6rem;
+  padding: 1em 5em 1em 1.5em;
+  margin-left: 10rem;
+}
+
+.formular-newsletter .checbox-text br {
+  display: none;
+}
+
+.formular-newsletter .checbox-text span {
+  font-size: 1.6em !important;
+  white-space: nowrap;
+}
+
+.formular-newsletter .legend {
+  margin-left: 10rem;
+  font-size: 0.8em;
+  font-family: "Facundo-black";
+  letter-spacing: 1px;
+}
+
+.formular-newsletter h2 {
+  margin-left: 10rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  font-family: "Facundo-semibold";
+}
+
+.formular-newsletter .checbox-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  cursor: pointer;
+  margin-bottom: 5rem;
+  margin-left: 1.1rem;
+  margin-top: 1.1rem;
+}
+
+.formular-newsletter .checbox-group label {
+  font-family: "Facundo-black";
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 2.5em;
+  color: #656565;
+  opacity: 1;
+  margin-left: 1.4rem;
+  line-height: 1.4;
+  cursor: pointer;
+}
+
+.formular-newsletter .checbox-group input:checked + label {
+  color: #fff;
+  cursor: pointer;
+}
+
+.formular-newsletter .checbox-group input[type="radio"]:checked {
+  border-color: white !important;
+  cursor: pointer;
+}
+
+.formular-newsletter .checbox-group .form-check-input:focus {
+  border-color: #656565;
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0 #fff;
+          box-shadow: 0 0 0 0 #fff;
+}
+
+.formular-newsletter .checkbox-label {
+  display: block;
+  position: relative;
+  margin: auto;
+  cursor: pointer;
+}
+
+.formular-newsletter .checkbox-label input {
+  position: absolute;
+  cursor: pointer;
+}
+
+.formular-newsletter .checkbox-label .checkbox-custom {
+  position: absolute;
+  top: 44px;
+  left: -66px;
+  height: 40px;
+  width: 40px;
+  background-color: transparent;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  border: 1px solid #fff;
+}
+
+.formular-newsletter .checkbox-label input:checked ~ .checkbox-custom {
+  background-color: transparent;
+  -webkit-transform: rotate(0deg) scale(1);
+  transform: rotate(0deg) scale(1);
+  opacity: 1;
+  border: 1px solid #ffffff;
+}
+
+.formular-newsletter .checkbox-label .checkbox-custom::after {
+  position: absolute;
+  content: "";
+  left: 12px;
+  top: 12px;
+  height: 0px;
+  width: 0px;
+  border: solid #ffffff;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(0deg) scale(0);
+  transform: rotate(0deg) scale(0);
+  opacity: 1;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+}
+
+.formular-newsletter .checkbox-label input:checked ~ .checkbox-custom::after {
+  -webkit-transform: rotate(45deg) scale(1);
+  transform: rotate(45deg) scale(1);
+  opacity: 1;
+  left: 16px;
+  top: 8px;
+  width: 9px;
+  height: 17px;
+  border: solid #ffffff;
+  border-width: 0 2px 2px 0;
+  background-color: transparent;
+  border-radius: 0;
+}
+
+.karte-mapp {
+  height: 700px;
+  position: relative;
+  overflow: hidden;
+  background-image: url("../img/karte.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+/* footer */
+.block-footer {
+  background-color: black;
+  color: white;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.block-footer .block-footer-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 4rem;
+  color: #fff;
+}
+
+.block-footer .block-footer-flex h6 {
+  text-transform: uppercase;
+  font-size: 1em;
+  letter-spacing: 1px;
+  font-family: "Facundo-semibold";
+}
+
+.block-footer .block-social_media {
+  display: none;
+}
+
+.block-footer .container-footer {
+  width: 1250px;
+  margin: 0 auto;
+}
+
+.block-footer ul li {
+  list-style: none;
+}
+
+.block-footer ul a {
+  color: white !important;
+  text-decoration: none;
+}
+
+.block-footer ul a:hover {
+  border-bottom: 2px solid #f1a6a6;
+}
+
+.block-footer li,
+.block-footer ul {
+  padding-left: 0 !important;
+}
+
+.block-footer .footer-logo {
+  width: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: auto;
+  margin-top: 3rem;
+}
+
+.block-footer .gruppe p {
+  line-height: 1.7;
+  font-family: "Facundo-regular";
+  font-size: 1em;
+}
+
+.block-footer .block-kontakt {
+  font-size: 1em;
+}
+
+.block-footer .block-kontakt p {
+  font-family: "Facundo-black";
+  letter-spacing: 1px;
+  line-height: 1.4;
+}
+
+.block-footer .block-kontakt ul {
+  font-family: "Facundo-regular";
+}
+
+.block-footer .block-kontakt ul li {
+  line-height: 1.7;
+}
+
+.block-footer .block-kontakt span {
+  font-family: "Facundo-regular";
+}
+
+.block-footer .block-kontakt .cantact-span span {
+  margin-right: 0.5rem;
+}
+
+.block-footer .block-Büro p {
+  font-family: "Facundo-regular";
+  font-size: 1em;
+  line-height: 1.7;
+}
+
+.block-footer .block-Rechtliches {
+  font-family: "Facundo-regular";
+  font-size: 1em;
+  line-height: 1.7;
+}
+
+.block-footer .flex_grow {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 22%;
+          flex: 0 0 22%;
+  margin-bottom: 1rem;
+}
+
+.block-footer .space-padding {
+  margin-top: 2rem;
+}
+
+.block-footer .space-padding .footer-logo {
+  width: 150px;
+}
+
+.block-footer .block-social_media {
+  margin-top: 3rem;
+}
+
+.block-footer .block-social_media .footer-icon {
+  width: 50px;
+  height: 68px;
+  display: inline-block;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.block-footer .block-social_media a {
+  text-decoration: none;
+}
+
+.block-footer .none {
+  visibility: hidden;
+}
+
+.datenschutz {
+  font-size: 24px;
+}
+
+.datenschutz p {
+  font-family: "Facundo-regular";
+}
+
+.datenschutz h2 {
+  font-family: "Facundo-black";
+  margin-bottom: 1rem;
+}
+
+.datenschutz li {
+  font-family: "Facundo-regular";
+}
+
+.datenschutz strong {
+  font-family: "Facundo-black";
+  display: block;
+}
+
+.datenschutz ul {
+  list-style: none;
+}
+
+.datenschutz a {
+  color: blue !important;
+}
+
+.impressum {
+  font-size: 24px;
+  font-family: "Facundo-regular";
+}
+
+.impressum h2 {
+  font-family: "Facundo-black";
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.impressum p {
+  font-family: "Facundo-regular";
+}
+
+.impressum ul {
+  list-style: none;
+}
+
+.wpcf7 form.invalid .wpcf7-response-output {
+  border-color: white !important;
+  border: none !important;
+  color: #ac1212;
+  font-family: "Facundo-regular";
+}
+
+.wpcf7-not-valid-tip {
+  color: #ac1212;
+  font-size: 1em;
+  font-weight: normal;
+  display: block;
+  font-family: "Facundo-regular" !important;
+}
+
+.wpcf7 form .wpcf7-response-output {
+  border-color: white !important;
+  border: none !important;
+  color: #27ad3e;
+  font-family: "Facundo-regular";
+}
+
+/* Media Querie */
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+
+@media (max-width: 1440px) {
+  section {
+    overflow: hidden;
+  }
+  .datenschutz {
+    font-size: 18px;
+  }
+  .banner-header {
+    height: 560px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .container {
+    max-width: 1320px;
+  }
+  .block-footer .block-footer-flex {
+    margin-top: 1rem;
+  }
+  .block-footer .flex_grow {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 21%;
+            flex: 0 0 21%;
+  }
+  .event-description br {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .form-v10-content {
+    margin: 0px 0px;
+  }
+  .banner-header {
+    height: 560px;
+    background-size: cover;
+  }
+  .flex-text h1 {
+    white-space: unset;
+    font-size: 1.3em;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .flex-text .event-description {
+    font-size: 1.1em;
+  }
+  .flex-text .date {
+    font-size: 4em;
+    padding-bottom: 0rem;
+  }
+  .flex-text .adresse li {
+    padding-right: 16px;
+    letter-spacing: 2px;
+    font-size: 1.3em;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+  .formular-newsletter .checbox-text {
+    line-height: 1.6;
+    font-size: 1.2em;
+    width: 711px;
+    margin: 0 auto;
+    border: 1px solid white;
+    margin-top: 5rem;
+    margin-left: 11rem;
+  }
+  .formular-newsletter .checbox-group label {
+    letter-spacing: 2px;
+    font-size: 2em;
+    line-height: 2.4;
+  }
+  .formular-newsletter h2 {
+    margin-left: 11rem;
+  }
+  .formular-newsletter .form-label {
+    font-size: 1.4em;
+    letter-spacing: 2px;
+  }
+  .formular-newsletter .legend {
+    margin-left: 11rem;
+  }
+  .formular-newsletter {
+    padding-bottom: 4rem;
+  }
+  .karte-mapp {
+    height: 600px;
+    background-size: cover;
+    margin-bottom: 0;
+  }
+  .block-footer .block-footer-flex {
+    margin-top: 0;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .block-footer .flex_grow {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 26%;
+            flex: 0 0 26%;
+  }
+}
+
+@media (max-width: 992px) {
+  .form-v10-content .form-detail .form-left .register {
+    font-size: 1.8em;
+  }
+  .banner-header {
+    height: 460px;
+    background-size: cover;
+  }
+  .flex-text h1 {
+    white-space: unset;
+    font-size: 1.4em;
+    text-align: center;
+  }
+  .flex-text .event-description {
+    font-size: 1em;
+  }
+  .flex-text .adresse li {
+    padding-right: 15px;
+    letter-spacing: 1px;
+    font-size: 1em;
+  }
+  .form-v10-content {
+    width: 777px;
+    margin: 0;
+  }
+  .formular-newsletter h1 {
+    font-size: 1.5em;
+  }
+  .formular-newsletter .checbox-group label {
+    letter-spacing: 2px;
+    font-size: 2em;
+    line-height: 1.8;
+  }
+  .form-check {
+    margin-bottom: 2.125rem;
+  }
+  .formular-newsletter .checbox-text {
+    line-height: 1.4;
+    font-size: 1.2em;
+    text-align: left;
+    width: 613px;
+    border: 1px solid white;
+    margin-left: 5rem;
+  }
+  .formular-newsletter {
+    padding-bottom: 0;
+  }
+  .formular-newsletter .checkbox-label .checkbox-custom {
+    left: -25px;
+  }
+  .formular-newsletter .acceptance-input p {
+    white-space: unset;
+    font-size: 1.3em;
+    -webkit-transform: translate(23px, 11px);
+            transform: translate(23px, 11px);
+  }
+  .form-v10-content .form-detail .form-left .form-group .form-row.form-row-2:not([type='checkbox']) {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .form-v10-content .form-detail .form-left .form-group .form-row.form-row-1:not([type='checkbox']) {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .form-v10-content .form-detail .form-group {
+    gap: 0;
+  }
+  .formular-newsletter .legend {
+    margin-left: 5rem;
+    display: none;
+  }
+  .formular-newsletter .form-row-la {
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+  }
+  .formular-newsletter h2 {
+    margin-left: 0;
+    text-align: center;
+    margin-top: 0rem;
+  }
+  .formular-newsletter .form-label {
+    font-size: 1.2em;
+  }
+  .formular-newsletter .checbox-group {
+    margin-bottom: 4rem;
+    margin-left: -0.9rem;
+    margin-top: 0.1rem;
+  }
+  .karte-mapp {
+    height: 460px;
+    background-size: cover;
+    margin-bottom: 0;
+  }
+  .block-footer .block-footer-flex {
+    margin-top: 0;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .block-footer .flex_grow {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 53%;
+            flex: 0 0 53%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .container,
+  .container-fluid,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    padding: 0;
+  }
+  .banner {
+    height: 234px;
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    background-size: contain;
+  }
+  .banner-header {
+    height: 234px;
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+  }
+  .flex-text h1 {
+    white-space: unset;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    text-align: center;
+    line-height: 1.7;
+    margin-top: 2rem;
+  }
+  .flex-text .date {
+    font-size: 3em;
+    padding-bottom: 0;
+  }
+  .flex-text {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .flex-text .adresse li:not(:last-child):after {
+    display: none;
+  }
+  .flex-text .adresse li {
+    padding-right: 0;
+    letter-spacing: 2px;
+    font-size: 0.8em;
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 1.6;
+  }
+  .flex-text .adresse {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  p {
+    margin-bottom: 0;
+  }
+  .formular-newsletter h1 {
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .formular-newsletter .checbox-group {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 0;
+    margin-left: 0.9rem;
+    margin-top: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .formular-newsletter .checbox-group label {
+    letter-spacing: 2px;
+    font-size: 2em;
+    line-height: 2;
+  }
+  .formular-newsletter h2 {
+    margin-left: 0;
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  .formular-newsletter .form-label {
+    font-size: 1em;
+  }
+  .formular-newsletter .checbox-text {
+    font-size: 1em;
+    text-align: left;
+    width: 340px;
+    border: none;
+    margin-top: 2rem;
+    padding: 1em;
+    margin-left: 0rem;
+  }
+  .formular-newsletter .checbox-text span {
+    font-size: 1.4em !important;
+    white-space: unset;
+  }
+  .formular-newsletter p {
+    font-size: 1em;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+  }
+  .formular-newsletter .acceptance-input p {
+    white-space: unset;
+    font-size: 0.9em;
+    width: 300px;
+    padding-right: 0;
+    padding-left: 0;
+    -webkit-transform: translate(-2px, -1px);
+    transform: translate(-4px, 1px);
+  }
+  .formular-newsletter .checkbox-label .checkbox-custom {
+    top: 0px;
+    left: -25px;
+    height: 20px;
+    width: 20px;
+  }
+  .flex-container,
+  .flex-container-newsletter {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 2rem;
+  }
+  .formular-newsletter {
+    padding-bottom: 0;
+  }
+  .formular-newsletter .form-group {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .form-v10-content .form-detail .form-left .register {
+    width: 300px;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    line-height: 1.7;
+    padding: 0.3em;
+  }
+  .formular-newsletter .legend {
+    margin-left: 1rem;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: left;
+    display: none;
+  }
+  .karte-mapp {
+    height: 234px;
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 0;
+  }
+  .block-footer .block-footer-flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 0;
+    gap: 1rem;
+    padding-bottom: 0;
+    margin-top: 0;
+  }
+  .block-footer .footer-logo {
+    margin-top: 1rem;
+  }
+  .block-footer .block-footer-flex h6 {
+    font-size: 1.2em;
+  }
+  .block-footer {
+    padding-top: 3rem;
+    padding: 0;
+    margin: 0 auto;
+    padding: 1em;
+  }
+  .block-footer p {
+    margin-bottom: 0;
+  }
+  .form-v10-content {
+    margin: 50px 20px;
+  }
+  .block-footer .block-social_media {
+    margin-top: 0;
+  }
+  dl,
+  ol,
+  ul {
+    margin-bottom: 0;
+  }
+  .block-footer .container-footer {
+    padding-top: 2rem;
+  }
+  .block-footer .space-padding {
+    margin-top: 0;
+  }
+  section {
+    overflow: hidden;
+  }
+  .wpcf7 form .wpcf7-response-output {
+    text-align: center;
+    width: 250px;
+    margin: 0 auto;
+    padding: 1.2em 1em;
+  }
+  .impressum {
+    text-align: center;
+    font-size: 18px;
+  }
+  .impressum .block {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .impressum h2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .impressum a {
+    color: blue !important;
+  }
+  .datenschutz {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 17px;
+  }
+  .datenschutz a {
+    white-space: pre-wrap;
+    -webkit-hyphens: auto;
+        -ms-hyphens: auto;
+            hyphens: auto;
+  }
+  .datenschutz h2 {
+    margin-top: 1.2rem;
+  }
+  ol,
+  ul {
+    padding-left: 0;
+  }
+}
+
+.wpcf7-list-item-label {
+  font-family: "Facundo-black";
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 2.5em;
+  color: #656565;
+  opacity: 1;
+  margin-left: 1.4rem;
+  line-height: 1.4;
+  cursor: pointer;
+}
+
+.wpcf7-list-item {
+  display: inline-block;
+  margin: 0 0 0 8em;
+}
+
+.formular-newsletter .checbox-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  cursor: pointer;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+/*# sourceMappingURL=style.css.map */
